@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .topnav {
+                position: fixed; 
+                display: grid;
+                grid-template-columns: 50px 50px 1fr 75px 75px 75px;
+                grid-template-rows: 50px;
+                width: 100%;
+                font-size: 12px;
+                color: black;
+            }
+            
+
+            .logo {
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                padding-top: 100px;
+            }
+
+            .signin {
+               background-color: lightblue;
+               color: white;
+               height: 30px;
+               width: 80px;
+
+            }
+
+            .footer {
+                position: fixed;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 150px 150px 150px 1fr 150px 150px 150px;
+                grid-template-rows: 50px 50px;
+                bottom: 0px;
+            }
+
+            .country {
+                grid-column: 1/8;
+            }
+
+            .content {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                top: 5000px;
+            }
+
+            .search {
+                padding-top: 40px;
+                grid-column: 1/3;
+                text-align: center;
+            }
+
+            .search input {
+                width: 500px;
+            }
+
+            .googlesearch {
+                text-align: right;
+                padding: 15px 30px 0px 0px;
+            }
+
+            .iflucky {
+                text-align: left;
+                padding: 15px 0px 0px 30px;
+            }
+    </style>
+    </head>
+    
+    
+    <body>
+        <div class="topnav">
+                <a href="#">About</a>
+                <a href="#">Store</a>
+                <a href="#"></a>
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <button class="signin">Sign In</button>
+        </div>
+
+        <div class="logo">
+            <a href="#"> <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></a>
+        </div>
+
+        <div class="content">
+        <div class="search">
+            <input type="text" placeholder=""> 
+        </div>
+        
+        <div class="googlesearch">
+            <button>Google Search</button>
+        </div>
+
+        <div class="iflucky">
+            <button>I'm Feeling Lucky</button>
+        </div>
+        </div>
+
+    <div class="footer">
+            <a href="#" class="country">Canada</a>
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search Works</a>
+            <a href="#"></a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+    </div>
+    </body>
+</html>
